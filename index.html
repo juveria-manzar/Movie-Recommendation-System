@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MusicalPicks</title>
+    <meta name="description" content="A movie musical recommendation app">
+    <script src="https://use.fontawesome.com/e656f4498e.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald:400,500" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+    <section class="main-container">
+
+        <header>
+            <img src="imgs/titlesign.png" class="header-img" alt="Title sign">
+        </header>
+
+        <section class="home-text-display">
+            <h2 class="text-title">Find personalized recommendations for movie musicals.</h2>
+            <p class="text">Take a short quiz to discover movie musicals based on your personal preferences.</p>
+            <button type="button" type="submit" class="start">START</button>
+        </section>
+
+        <section class="question-progress">
+            <img src="" class="question-progress-img" alt="Image of stage lights that change color as the quiz progresses">
+        </section>
+
+        <section class="question-display">
+            <h1 class="question"></h1>
+            <ul class="choices"></ul>
+            <button type="button" type="submit" class="next">NEXT</button>
+            <button type="button" type="submit" class="finish">FINISH</button>
+        </section>
+
+        <section class="results">
+            <section class="results-text-display">
+                <h2 class="text-title">Congrats! You have completed the quiz. View your results below.</h2>
+                <p class="text">Search for additional musicals by genre by clicking the search button below.</p>
+                <div class="results-buttons">
+                    <button type="button" type="submit" class="restart">RESTART</button>
+                    <button type="button" type="submit" class="search">SEARCH</button>
+                </div>
+            </section>
+            <section class="results-view"></section>
+        </section>
+
+        <section class="additional-results">
+            <p>Search for additional musicals by genre using the buttons below.</p>
+            <div class="genre-buttons">
+                <button class="genre" type="button" type="submit" id="28">ACTION</li>
+				<button class="genre" type="button" type="submit" id="12">ADVENTURE</li>
+				<button class="genre" type="button" type="submit" id="16">ANIMATION</li>
+				<button class="genre" type="button" type="submit" id="35">COMEDY</li>
+				<button class="genre" type="button" type="submit" id="18">DRAMA</li>
+				<button class="genre" type="button" type="submit" id="10751">FAMILY</li>
+				<button class="genre" type="button" type="submit" id="14">FANTASY</li>
+				<button class="genre" type="button" type="submit" id="36">HISTORY</li>
+				<button class="genre" type="button" type="submit" id="10749">ROMANCE</li>
+				<button class="genre" type="button" type="submit" id="10770">TV MOVIE</li>
+				<button class="genre" type="button" type="submit" id="53">THRILLER</li>
+			</div>
+			<div class="genre-restart">
+				<button type="button" type="submit" class="restart">RESTART</button>
+            </div>
+            <div class="additional-results-items"></div>
+        </section>
+
+        <section class="home-image" class="illustration-items">
+            <img src="imgs/Theaterfront.svg" class="illustration">
+        </section>
+
+        <section class="question-image" class="illustration-items"></section>
+
+    </section>
+
+    <footer>
+        <div class="social">
+            <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter fa-4x" aria-hidden="true"></i></a>
+            <a href="https://medium.com/@juveriamanzar"><i class="fa fa-medium fa-4x" aria-hidden="true"></i></a>
+            <a href="https://github.com/juveria-manzar"><i class="fa fa-github-alt fa-4x" aria-hidden="true"></i></a>
+        </div>
+        <div class="credit">
+            <img src="imgs/tmdb.svg" class="tmdb" alt="The Movie Database logo">
+            <p class="credit-text">This product uses the TMDb API but is not endorsed or certified by TMDb.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
